@@ -1,7 +1,0 @@
-py -3.10 -m venv drow_env 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-.\drow_env\Scripts\activate 
- pip install opencv-python mediapipe pygame numpy
-pip freeze > requirements.txt
-Later (on another machine), you can recreate the same environment with:
-pip install -r requirements.txt
