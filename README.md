@@ -29,7 +29,7 @@ This project detects driver drowsiness by monitoring eye closure and yawning usi
 ## Install dependencies with:
 
 - pip install opencv-python mediapipe pygame numpy
-  IF PYTHON VERSION DONOT SUPPORT THEN,
+- IF PYTHON VERSION DONOT SUPPORT THEN,
 - py -3.10 -m venv drow_env
 - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 - .\drow_env\Scripts\activate
